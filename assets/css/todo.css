@@ -1,0 +1,110 @@
+body {
+	font-family: "Roboto Condensed";
+	background: url("imgs/background.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
+	color: #525252;
+}
+h1 {
+	margin: 0;
+	background: url("imgs/header.png");
+	color: #E2E2E2;
+	padding: 8px 18px;
+	font-weight: normal;
+}
+input {
+	outline: none;
+	margin: 0;
+	background: url("imgs/body.jpg");
+	width: 100%;
+	font-size: 1.5em;
+	padding-left: 18px;
+	color: #3D3D3D;
+	box-sizing: border-box;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family: "Nothing You Could Do";
+	border-bottom: 1px solid #00B5B5;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	opacity: .7;
+}
+input:focus {
+	background: url("imgs/body.jpg");
+	opacity: 1;
+	color: #3D3D3D;
+	border: 3px solid #000000;
+}
+span {
+	margin-top: 0;
+	margin-right: 16px;
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: "Nothing You Could Do";
+	padding-bottom: 10px;
+}
+li {
+	border-bottom: 1px solid #00B5B5;
+	padding: 0;
+}
+#container {
+	margin: 100px auto;
+	width: 360px;
+	background: url("http://bgfons.com/upload/paper_texture327.jpg");
+	box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);	
+	padding: 0;
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+.fa-pencil {
+	background: none;
+	color: #E2E2E2;
+	font-size: .3em;
+	float: right;
+}
+.fa-trash-o {
+	background: #D14111;
+	color: #F2F2F2;
+	display: none;
+	text-align: center;
+	height: 28px;
+	padding-top: 10px;
+	width: 0;
+	transition: .2s linear;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	opacity: 0;
+}
+li:hover i.fa-trash-o {
+	width: 40px;
+	opacity: 1.0;
+}
+.fa-check-square-o {
+	background: #38B929;
+	color: #F2F2F2;
+	display: none;
+	text-align: center;
+	height: 28px;
+	padding-top: 10px;
+	width: 0;
+	transition: .2s linear;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	opacity: 0;
+}
+li:hover i.fa-check-square-o {
+	width: 40px;
+	opacity: 1.0;
+}
+.hidden {
+	display: none;
+}
