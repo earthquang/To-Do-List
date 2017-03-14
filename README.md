@@ -6,5 +6,5 @@
 <h3> To run: </h3>
 
 <ul>  
-  <li>Run index.html in the browser from the same root directory as other folders in this repo.
+  <li>Run index.html in the browser from the same root directory as the other folders included in this repo.
 </ul>
